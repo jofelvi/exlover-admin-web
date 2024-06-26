@@ -1,0 +1,45 @@
+.login-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    background-color: #36394C ;
+    color: aliceblue;
+}
+
+.left-section {
+    flex: 2;
+    background-image: url('../../../assets/bg.jpg'); /* Set your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right-section {
+    flex: 1;
+    margin: 15px;
+    align-self: center;
+    width: 100%;
+}
+
+.form-content {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: aliceblue;
+}
